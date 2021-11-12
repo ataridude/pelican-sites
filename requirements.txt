@@ -1,0 +1,8 @@
+pelican
+markdown
+pelican-tag-cloud
+pelican-read-more
+beautifulsoup4
+#pelican-tipue-search
+lxml
+webassets
