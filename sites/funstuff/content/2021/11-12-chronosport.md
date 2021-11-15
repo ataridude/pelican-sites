@@ -23,12 +23,12 @@ Steinhart soon.
 
 ![with-gmt](/images/chronosport/with-gmt.jpg)
 
-I bought my Chronosport from the original owner, and he included all of its service paperwork.
+The original owner included all of the watch's service paperwork as part of my purchase.
 The paperwork shows that he bought it in January of 1982 and had it serviced several times
 before putting it in a drawer in 1991.  I scanned all the paperwork, and will post it after I
 block his personal information from the images.
 
-Here are several other imgaes of the watch:
+Here are several other images of the watch:
 
 ![crown](/images/chronosport/crown2.jpg)
 
