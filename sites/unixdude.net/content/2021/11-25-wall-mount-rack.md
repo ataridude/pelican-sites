@@ -1,5 +1,7 @@
 Title: Wall-mount rack
 Date: 2021-11-27
+Category: homelab
+Tags: rack
 Status: published
 
 Since I bought my Cisco equipment, I have had it racked in the cheap, two-post desktop rack

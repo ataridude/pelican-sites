@@ -1,5 +1,7 @@
 Title: Watches
 Date: 2021-11-11
+Category: watches
+Tags: casio, chronosport sea quartz 30, steinhart, swatch, magnum
 Status: published
 
 I have always liked watches.  In the 1980s, as a teen, it was Casio watches,
