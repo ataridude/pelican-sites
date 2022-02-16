@@ -1,29 +1,74 @@
 #!/bin/bash
 
-[[ -z $2 ]] && echo "Usage: $0 site tag [push]" && exit 1
-SITE=$1
-TAG=$2
+while getopts "s:t:pd" arg; do
+  case ${arg} in
+    s)
+      SITE=${OPTARG}
+      ;;
+    t)
+      TAG=${OPTARG}
+      ;;
+    p)
+      PUSH=yes
+      ;;
+    d)
+      DEV=yes
+      ;;
+    ?)
+      echo "Invalid option: -${OPTARG}."
+      echo
+      usage
+      ;;
+  esac
+done
 
-[[ -z $3 ]] || PUSH=yes
+function usage {
+    echo
+    echo "Usage: $0 -s SITE -t TAG [-d] [-p]"
+    echo
+    exit 1
+}
+
+[[ -z ${SITE} ]] && usage
 
 case $SITE in
   atari | atariblog)
-    IMAGE="ataridude/atariblog"
+    if [ -n "${DEV}" ]; then
+        IMAGE="ataridude/private"
+        TAG="atariblog"
+    else
+        IMAGE="ataridude/atariblog"
+    fi
     SITE="atariblog"
     ;;
 
   sale | forsale)
-    IMAGE="ataridude/forsale"
+    if [ -n "${DEV}" ]; then
+        IMAGE="ataridude/private"
+        TAG="forsale"
+    else
+        IMAGE="ataridude/forsale"
+    fi
     SITE="forsale"
     ;;
 
   fun | funstuff)
-    IMAGE="ataridude/funstuff"
+    if [ -n "${DEV}" ]; then
+        IMAGE="ataridude/private"
+        TAG="funstuff"
+    else
+        IMAGE="ataridude/funstuff"
+    fi
     SITE="funstuff"
     ;;
 
   unix | unixdude | unixdude.net)
-    IMAGE="ataridude/unixdude.net"
+    if [ -n "${DEV}" ]; then
+        IMAGE="ataridude/private"
+        TAG="unixdude.net"
+    else
+        IMAGE="ataridude/unixdude.net"
+    fi
     SITE="unixdude.net"
     ;;
 
@@ -35,7 +80,15 @@ esac
 
 [[ -z $IMAGE ]] && echo "Invalid site: [${SITE}]" && exit 1
 
-docker image build --build-arg SITE=${SITE} -t "${IMAGE}:${TAG}" -t "${IMAGE}:latest" .
-if [[ $PUSH == "yes" ]]; then
-    docker image push ${IMAGE}:${TAG} && docker image push ${IMAGE}:latest
+if [ "yes" == "${DEV}" ]; then
+    cp sites/${SITE}/devconf.py sites/${SITE}/pelicanconf.py
+else
+    cp sites/${SITE}/prodconf.py sites/${SITE}/pelicanconf.py
+fi
+
+docker image build --build-arg SITE=${SITE} -t "${IMAGE}:${TAG}" .
+docker image push ${IMAGE}:${TAG}
+if [[ "${PUSH}" == "yes" ]]; then
+    docker image build --build-arg SITE=${SITE} -t "${IMAGE}:latest" .
+    docker image push ${IMAGE}:latest
 fi
