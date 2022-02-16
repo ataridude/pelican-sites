@@ -1,7 +1,7 @@
 Title: Retiring my Dell R610
 Date: 2021-12-22
 Category: Tech
-Tags: esxi, r610, m900, tinyminimicro
+Tags: esxi, r610, m900, tinyminimicro, rack
 Status: published
 
 Ever since [a friend](https://mindlesstux.com/) gave me a Dell R610, I have used that as
