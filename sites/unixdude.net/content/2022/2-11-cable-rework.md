@@ -1,8 +1,9 @@
-Title: Cable cleanup
+Title: OSPF update, Cable cleanup, and finished rack
 Date: 2022-2-11
 Category: Lab
 Tags: update, cables, rack, routing, ospf, wireguard, usg, ubiquiti, digitalocean
 Status: published
+Slug: cable-cleanup
 
 A quick update on my OSPF cutover.  With one exception, everything has worked great.
 The one exception is that OSPF would not work over the WireGuard link between my USG
@@ -37,7 +38,10 @@ moved the slack to the other side of the wall.  I think the result is pretty awe
 ![after-under-1](/images/lab/after-under-1.jpg)
 ![after-under-2](/images/lab/after-under-2.jpg)
 
-The finished lab looks pretty good:
+---
+
+The finished lab looks pretty good.  Many thanks to [Hayden James](https://haydenjames.io/home-lab-beginners-guide-hardware/)
+for the inspiration here.  You can see my progress [here](/tag/rack/).
 
 ![rack](/images/lab/rack.jpg)
 
@@ -56,6 +60,11 @@ For those who are interested, here's what's in and around that rack:
 * U1: Pyle PDU
 
 I left U2 empty so that I can reach the latches that allow my Networx rack to swing out.
-There is no shelf at U11; the UI devices are simply resting atop the Cisco in U10.
+Similarly, there is no shelf at U11; the UI devices are simply resting atop the Cisco in U10.
 
-Below the rack are my Synology DS220+, a Grandstream DP750, a Linksys PAP2, and my UPS.
+Below the rack are my Synology DS220+, a Grandstream DP750, a Linksys PAP2, and a UPS for the
+infrastructure (not the lab devices).
+
+The monitor above the rack is connected to my Raspberry Pi 4B.  I would like to use it as
+some sort of dashboard, but I haven't done anything with that yet.  That's a project for
+another day.
