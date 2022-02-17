@@ -26,6 +26,11 @@ function usage {
     echo
     echo "Usage: $0 -s SITE -t TAG [-d] [-p]"
     echo
+    echo "-s = site"
+    echo "-t = tag"
+    echo "-d = dev"
+    echo "-p = push latest tag"
+    echo
     exit 1
 }
 
