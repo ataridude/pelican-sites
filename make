@@ -37,6 +37,16 @@ function usage {
 [[ -z ${SITE} ]] && usage
 
 case $SITE in
+  camping)
+    if [ -n "${DEV}" ]; then
+        IMAGE="ataridude/private"
+        TAG="campingwonders"
+    else
+        IMAGE="ataridude/campingwonders"
+    fi
+    SITE="campingwonders.com"
+    ;;
+
   atari | atariblog)
     if [ -n "${DEV}" ]; then
         IMAGE="ataridude/private"

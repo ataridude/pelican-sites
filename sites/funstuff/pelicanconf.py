@@ -2,13 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Daniel'
-
-AUTHORS = {
-    u'Daniel': 'https://funstuff.unixdude.net',
-}
-
-SITENAME = 'funstuff.unixdude.net'
+AUTHOR = u'Daniel'
+SITENAME = u'funstuff.unixdude.net'
 SITEURL = 'https://funstuff.unixdude.net'
 
 PATH = 'content'
@@ -16,16 +11,18 @@ STATIC_PATHS = [ 'images', 'php', 'css' ]
 
 TIMEZONE = 'America/New_York'
 
-DEFAULT_LANG = 'en'
+DEFAULT_LANG = u'en'
 
 DELETE_OUTPUT_DIRECTORY = False
 
+# Needed for tipue_search:
 DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search', 'tags')
 
-#DISQUS_SITENAME = 'ataridude-net'
+#DISQUS_SITENAME = 'unixdude-net'
 
 PLUGIN_PATHS = ["/usr/local/pelican-plugins","/usr/src/app/pelican-plugins"]
 #PLUGINS = ["assets", "liquid_tags", "tag_cloud"]
+#PLUGINS = ["tag_cloud", "assets", "read_more", "pelican_algolia"]
 PLUGINS = ["tipue_search", "tag_cloud", "assets", "read_more"]
 #DEFAULT_METADATA = (('tags', 'misc'),)
 
@@ -91,10 +88,10 @@ BS3_THEME = 'https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap
 BS3_THEME_NAME = 'Spacelab'
 BS3_THEME_HOMEPAGE = 'https://bootswatch.com/3/spacelab/'
 
-#TAG_CLOUD_STEPS = 4
-#TAG_CLOUD_MAX_ITEMS = 1000
-#TAG_CLOUD_SORTING = 'alphabetically'
-#TAG_CLOUD_BADGE = True
+TAG_CLOUD_STEPS = 4
+TAG_CLOUD_MAX_ITEMS = 1000
+TAG_CLOUD_SORTING = 'alphabetically'
+TAG_CLOUD_BADGE = True
 
 # provided as examples, they make ‘clean’ urls. used by MENU_INTERNAL_PAGES.
 CATEGORIES_URL     = 'categories/'
@@ -127,8 +124,8 @@ DAY_ARCHIVE_SAVE_AS = 'archives/{date:%Y}/{date:%b}/{date:%d}/index.html'
 PAGE_URL = 'pages/{slug}/'
 PAGE_SAVE_AS = 'pages/{slug}/index.html'
 
-FAVICON = '/images/favicon.png'
-FAVICON_TYPE = 'png'
+FAVICON = u'/images/favicon.png'
+FAVICON_TYPE = u'png'
 
 #SHOW_CATEGORY_FEEDS_IN_SIDEBAR = True
 
