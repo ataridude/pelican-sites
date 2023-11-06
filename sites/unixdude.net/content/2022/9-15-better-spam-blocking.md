@@ -1,5 +1,5 @@
 Title: Better spam blocking
-Date: 2022-9-15
+Date: 2022-9-15 9:30
 Category: Mail
 Tags: postfix
 Status: published

@@ -1,6 +1,6 @@
 Title: Sharing Unix shell config between systems
-Category: Tech
-Tags: unix, shell, git
+Category: Unix
+Tags: shell, git
 Date: 2017-11-11
 Status: published
 

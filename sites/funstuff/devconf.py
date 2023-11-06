@@ -2,34 +2,27 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Daniel'
-
-AUTHORS = {
-    u'Daniel': 'https://www-dev.ataridude.net',
-}
-
-SITENAME = 'ataridude.net'
-SITEURL = 'https://www-dev.ataridude.net'
+AUTHOR = u'Daniel'
+SITENAME = u'funstuff.unixdude.net'
+SITEURL = 'https://funstuff-dev.unixdude.net'
 
 PATH = 'content'
 STATIC_PATHS = [ 'images', 'php', 'css' ]
 
 TIMEZONE = 'America/New_York'
 
-DEFAULT_LANG = 'en'
+DEFAULT_LANG = u'en'
 
 DELETE_OUTPUT_DIRECTORY = False
 
 # Needed for tipue_search:
-#DIRECT_TEMPLATES = ['index', 'categories', 'authors', 'archives', 'search', 'tags']
-#DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives']
 DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search', 'tags')
 
-DISQUS_SITENAME = 'ataridude-dev'
+#DISQUS_SITENAME = 'unixdude-net'
 
 PLUGIN_PATHS = ["/usr/local/pelican-plugins","/usr/src/app/pelican-plugins"]
 #PLUGINS = ["assets", "liquid_tags", "tag_cloud"]
-#PLUGINS = ["tag_cloud", "assets", "read_more"]
+#PLUGINS = ["tag_cloud", "assets", "read_more", "pelican_algolia"]
 PLUGINS = ["tipue_search", "tag_cloud", "assets", "read_more"]
 #DEFAULT_METADATA = (('tags', 'misc'),)
 
@@ -78,29 +71,20 @@ MENUITEMS = [
     ]
 
 LINKS = (
-        ('AtariAge', 'http://www.atariage.com'),
-        ('Atari8', 'http://atari8.co.uk/'),
-        ('Atari Projects', 'http://atariprojects.org/'),
-        ('Atari Museum', 'http://www.atarimuseum.com'),
-        ('Rewind Games', 'http://www.rewindgames.com'),
-        ('Atari Magazines', 'http://www.atarimagazines.com'),
-        ('Atari 800XL.eu', 'http://www.atari800xl.eu'),
-        ('Virtual Atari', 'http://www.virtualatari.org'),
-        ('AtariMax', 'http://www.atarimax.com'),
-        ('Atari 8-bit Forever', 'http://gury.atari8.info/'),
-        ('AtariBits', 'https://ataribits.weebly.com/'),
-        ('Eight Bit Fix', 'https://www.eightbitfix.com/'),
-        ('8-Bit Classics', 'https://www.8bitclassics.com/'),
-        ('The Brewing Academy', 'https://www.thebrewingacademy.com/'),
-        ('Lotharek\'s Lair', 'https://lotharek.pl/'),
-        ('Console5', 'https://console5.com/'),
+        ('VMware', 'http://www.vmware.com'),
+        ('Cisco', 'http://www.cisco.com'),
+        ('F5', 'http://www.f5.com'),
+        ('Radware', 'http://www.radware.com'),
+        ('Ansible', 'http://www.ansible.com'),
+        ('Apple', 'http://www.apple.com'),
+        ('FreeBSD', 'http://www.freebsd.org')
         )
 #SOCIAL = (('twitter', 'http://twitter.com/DaanDebie'),
 #          ('linkedin', 'http://www.linkedin.com/in/danieldebie'),
 #          ('github', 'http://github.com/DandyDev'),
 #          ('stackoverflow', 'http://stackoverflow.com/users/872397/dandydev'))
 
-CODE_HIGHLIGHT = 'https://www-dev.ataridude.net/theme/css/solarized-dark.css'
+CODE_HIGHLIGHT = 'https://www.unixdude.net/theme/css/solarized-dark.css'
 BS3_URL   = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'
 BS3_JS    = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'
 BS3_THEME = 'https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css'
@@ -108,10 +92,10 @@ BS3_THEME = 'https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap
 BS3_THEME_NAME = 'Spacelab'
 BS3_THEME_HOMEPAGE = 'https://bootswatch.com/3/spacelab/'
 
-#TAG_CLOUD_STEPS = 4
-#TAG_CLOUD_MAX_ITEMS = 1000
-#TAG_CLOUD_SORTING = 'alphabetically'
-#TAG_CLOUD_BADGE = True
+TAG_CLOUD_STEPS = 4
+TAG_CLOUD_MAX_ITEMS = 1000
+TAG_CLOUD_SORTING = 'alphabetically'
+TAG_CLOUD_BADGE = True
 
 # provided as examples, they make ‘clean’ urls. used by MENU_INTERNAL_PAGES.
 CATEGORIES_URL     = 'categories/'
@@ -144,8 +128,8 @@ DAY_ARCHIVE_SAVE_AS = 'archives/{date:%Y}/{date:%b}/{date:%d}/index.html'
 PAGE_URL = 'pages/{slug}/'
 PAGE_SAVE_AS = 'pages/{slug}/index.html'
 
-FAVICON = '/images/favicon.png'
-FAVICON_TYPE = 'png'
+FAVICON = u'/images/favicon.png'
+FAVICON_TYPE = u'png'
 
 #SHOW_CATEGORY_FEEDS_IN_SIDEBAR = True
 
@@ -158,5 +142,5 @@ DEFAULT_METADATA = {
     'status': 'draft',
 }
 
-SIDEBAR_ABOUT_TITLE = "Daniel's Atari blog"
-SIDEBAR_ABOUT = "I am an Atari fan."
+SIDEBAR_ABOUT_TITLE = "Daniel's Blog"
+SIDEBAR_ABOUT = "I am a system engineer in the Raleigh, NC area.  My main interests are Unix, VMware, and networking.  <strong><a href='/pages/about/'>More about me, and how I got started.</a></strong>"
