@@ -1,6 +1,6 @@
 Title: testssl.sh
 Slug: testssl_sh
-Category: Tech
+Category: Networking
 Tags: ssl, shell, unix
 Date: 2018-7-2
 Status: published

@@ -1,6 +1,6 @@
 Title: Home Automation using Home Assistant
 Date: 2023-11-28
-Category: General
+Category: Home Assistant
 Tags: diy, home assistant, esp32, home automation, kasa
 Status: published
 

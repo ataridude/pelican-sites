@@ -1,7 +1,7 @@
 Title: Home network/home lab
 Slug: homelab
-Category: Tech
-Tags: nas, unix, esxi
+Category: Home lab
+Tags: nas, unix, esxi, synology, iscsi
 Date: 2017-12-3
 Status: published
 

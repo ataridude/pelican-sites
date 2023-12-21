@@ -1,6 +1,6 @@
 Title: Retiring my Dell R610
 Date: 2021-12-22
-Category: Tech
+Category: Home lab
 Tags: esxi, r610, m900, tinyminimicro, rack
 Status: published
 

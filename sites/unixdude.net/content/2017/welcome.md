@@ -1,6 +1,6 @@
 Title: Welcome
 Date: 10/26/2017 10:21
-Category: General
+Category: Website
 Status: published
 
 A while ago, a friend suggested that I should start a blog.  Around that

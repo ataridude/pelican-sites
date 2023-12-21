@@ -1,7 +1,7 @@
 Title: SSH, screen, and tunnels - oh my
 Slug: ssh-screen-tunnels-oh-my
-Category: Tech
-Tags: ssl, shell, unix
+Category: Networking
+Tags: shell, unix, ssh
 Date: 2019-8-28
 Status: published
 

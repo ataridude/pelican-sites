@@ -1,7 +1,7 @@
 Title: NFS automounter
 Slug: nfs-automounter
-Category: Tech
-Tags: unix
+Category: NFS
+Tags: unix, nfs, synology, zerotier
 Date: 2019-9-16
 Status: published
 

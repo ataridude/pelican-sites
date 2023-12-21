@@ -1,7 +1,7 @@
 Title: Lab update
 Slug: lab_update
-Category: Tech
-Tags: lab
+Category: Home lab
+Tags: r610, pxe
 Date: 2018-6-28
 Status: published
 

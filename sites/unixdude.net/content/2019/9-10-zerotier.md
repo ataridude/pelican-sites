@@ -1,7 +1,7 @@
 Title: Home Network update 2019-09
 Slug: home-network-update-2019-09
-Category: Tech
-Tags: network
+Category: Home lab
+Tags: network, zerotier, mikrotik, synology, macos, dns
 Date: 2019-9-10
 Status: published
 

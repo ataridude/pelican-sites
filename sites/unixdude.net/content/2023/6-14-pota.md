@@ -1,7 +1,7 @@
 Title: POTA kit
 Date: 2023-6-14
 Category: Ham radio
-Tags: pota, battery box, radio box
+Tags: pota, battery box, radio box, ham radio
 Status: published
 
 [Parks On The Air](https://parksontheair.com), or POTA, is one of the aspects of amateur radio that I have been

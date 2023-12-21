@@ -1,6 +1,6 @@
 Title: How to build a Pelican contact form
 Slug: pelican-contact-form
-Category: Tech
+Category: Website
 Tags: pelican, php
 Date: 2017-11-29
 Status: published

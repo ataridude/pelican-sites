@@ -1,6 +1,6 @@
 Title: June 2021 update
-Category: Tech
-Tags: vmware atari
+Category: Networking
+Tags: vmware, atari, raspberry pi, esxi, ubiquiti
 Date: 2021-6-14
 Status: published
 

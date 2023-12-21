@@ -1,7 +1,7 @@
 Title: PXE booting on ARM64
 Slug: pxe-booting-on-arm64
-Category: Tech
-Tags: virtualization, vmware
+Category: Home lab
+Tags: virtualization, vmware, pxe, home lab
 Date: 2021-4-23
 Status: published
 

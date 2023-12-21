@@ -1,7 +1,7 @@
 Title: ESXi on ARM Fling - Update
 Slug: esxi-on-arm-update
-Category: Tech
-Tags: virtualization, vmware
+Category: Home lab
+Tags: virtualization, vmware, raspberry pi, vmware
 Date: 2021-4-20
 Status: published
 

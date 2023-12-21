@@ -1,5 +1,6 @@
 Title: MinFS
-Category: Tech
+Category: Website
+Tags: minfs
 Date: 2021-10-28
 Status: published
 

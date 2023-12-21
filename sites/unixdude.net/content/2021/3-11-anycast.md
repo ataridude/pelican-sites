@@ -1,7 +1,7 @@
 Title: FRR and Anycast
 Slug: frr-and-anycast
-Category: Tech
-Tags: dns, frr, networking
+Category: Networking
+Tags: dns, frr, networking, pi-hole, anycast, raspberry pi
 Date: 2021-3-11
 Status: published
 

@@ -1,6 +1,6 @@
 Title: Learning Python
 Date: 2022-5-20
-Category: Scripting
+Category: Unix
 Tags: python, perl
 Status: published
 

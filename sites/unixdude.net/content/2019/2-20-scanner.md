@@ -1,7 +1,7 @@
 Title: Scanner
 Slug: scanner
-Category: Tech
-Tags: unix
+Category: General
+Tags: unix, scanner, raspberry pi, nfs, synology
 Date: 2019-2-20
 Status: published
 

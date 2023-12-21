@@ -1,6 +1,6 @@
 Title: Home Assistant; Ham radio digital voice
 Date: 2023-11-05
-Category: General
+Category: Home Assistant
 Tags: diy, home assistant, esp32, ysf, home automation, ham radio
 Status: published
 

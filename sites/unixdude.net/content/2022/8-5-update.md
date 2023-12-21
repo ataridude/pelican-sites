@@ -1,7 +1,7 @@
 Title: Update
 Date: 2022-8-5
 Category: General
-Tags: update, prepping, disney, hamradio
+Tags: update, prepping, disney, ham radio
 Status: published
 
 I've been busy at home, but not working in my home lab.  Lately I have been preoccupied by a few things.

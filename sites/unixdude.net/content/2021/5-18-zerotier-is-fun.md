@@ -1,7 +1,7 @@
 Title: ZeroTier Is Fun
 Slug: zerotier-is-fun
-Category: Tech
-Tags: networking
+Category: Networking
+Tags: networking, zerotier
 Date: 2021-5-18
 Status: published
 

@@ -1,7 +1,7 @@
 Title: FT-7800R install
 Date: 2022-9-25
 Category: Ham radio
-Tags: ft7800r, f150
+Tags: ft7800r, f150, ham radio
 Status: published
 
 This is not my typical type of post, but as I have said, communications and networking are

@@ -1,6 +1,6 @@
 Title: MacBook Pro recovery
 Date: 2022-1-4
-Category: Tech
+Category: General
 Tags: mac
 Status: published
 

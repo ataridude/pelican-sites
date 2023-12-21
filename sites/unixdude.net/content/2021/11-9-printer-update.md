@@ -1,6 +1,6 @@
 Title: Printer update
-Category: Tech
-Tags: docker, printer
+Category: General
+Tags: docker, printer, scanner, raspberry pi
 Date: 2021-11-9
 Status: published
 

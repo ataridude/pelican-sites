@@ -1,7 +1,7 @@
 Title: I love SSH tunnels
 Slug: ssh_tunnels
-Category: Tech
-Tags: unix, shell
+Category: Networking
+Tags: unix, shell, ssh
 Date: 2018-3-15
 Status: published
 

@@ -1,5 +1,5 @@
 Title: Update on migration to Docker/Traefik
-Category: Tech
+Category: Website
 Tags: traefik, docker
 Date: 2021-11-05
 Status: published

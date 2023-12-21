@@ -1,6 +1,6 @@
 Title: Using the program map type in autofs
 Date: 2022-9-15 9:50
-Category: Tech
+Category: NFS
 Tags: autofs, nfs
 Status: published
 

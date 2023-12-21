@@ -1,7 +1,7 @@
 Title: macOS Mail issue with postfix
 Slug: macos-mail-postfix
-Category: Tech
-Tags: mail
+Category: Mail
+Tags: email, postfix, macos
 Date: 2019-5-14
 Status: published
 

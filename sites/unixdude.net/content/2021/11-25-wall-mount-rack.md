@@ -1,6 +1,6 @@
 Title: Wall-mount rack
 Date: 2021-11-27
-Category: homelab
+Category: Home lab
 Tags: rack
 Status: published
 

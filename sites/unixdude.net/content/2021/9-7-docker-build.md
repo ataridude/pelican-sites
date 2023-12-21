@@ -1,6 +1,6 @@
 Title: Docker build
-Category: Tech
-Tags: docker
+Category: General
+Tags: docker, raspberry pi, scanner
 Date: 2021-9-7
 Status: published
 

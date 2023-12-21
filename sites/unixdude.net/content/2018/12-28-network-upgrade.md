@@ -1,7 +1,7 @@
 Title: Network upgrade
 Slug: network_update
-Category: Tech
-Tags: lab
+Category: Home lab
+Tags: synology, r610
 Date: 2018-12-28
 Status: published
 

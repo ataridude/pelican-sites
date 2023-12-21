@@ -1,7 +1,7 @@
 Title: Lab update
 Date: 2022-1-31
-Category: Networking
-Tags: update, docker, portainer, T1, homelab, ubiquiti, usg, wireguard, rack
+Category: Home lab
+Tags: update, docker, portainer, T1, ubiquiti, usg, wireguard, rack, cables
 Status: published
 
 I have been hard at work these last few weeks in my home lab, and have done quite a bit.  Here are a

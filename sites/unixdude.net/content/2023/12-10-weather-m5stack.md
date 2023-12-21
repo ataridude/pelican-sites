@@ -1,6 +1,6 @@
 Title: ESPHome weather display on an m5stack
 Date: 2023-12-10
-Category: General
+Category: Home Assistant
 Tags: diy, home assistant, m5stack, esphome
 Status: published
 

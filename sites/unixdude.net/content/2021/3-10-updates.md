@@ -1,7 +1,7 @@
 Title: General update
 Slug: 2021-03-general-update
-Category: General
-Tags: unix
+Category: Home lab
+Tags: unix, ansible, pi-hole, raspberry pi
 Date: 2021-3-10
 Status: published
 

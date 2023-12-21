@@ -1,6 +1,7 @@
 Title: Postfix relay configuration
 Slug: postfix_relay
-Category: Tech
+Category: Mail
+Tags: postfix, spf, email
 Date: 2019-2-14
 Status: published
 

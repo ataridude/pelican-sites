@@ -1,7 +1,7 @@
 Title: Lab, and network upgrade
 Slug: catalyst
-Category: Tech
-Tags: network
+Category: Home lab
+Tags: networking, cisco, homelab
 Date: 2021-3-12
 Status: published
 

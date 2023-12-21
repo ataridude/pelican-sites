@@ -1,5 +1,6 @@
 Title: Traefik
-Category: Tech
+Category: Website
+Tags: traefik, docker
 Date: 2021-8-12
 Status: published
 

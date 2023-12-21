@@ -1,5 +1,5 @@
 Title: healthchecks.io
-Category: Tech
+Category: Networking
 Tags: monitoring
 Date: 2021-11-15
 Status: published

@@ -1,7 +1,7 @@
 Title: OSPF update, Cable cleanup, and finished rack
 Date: 2022-2-11
-Category: Lab
-Tags: update, cables, rack, routing, ospf, wireguard, usg, ubiquiti, digitalocean
+Category: Home lab
+Tags: cables, rack, routing, ospf, wireguard, usg, ubiquiti, digitalocean, frr
 Status: published
 Slug: cable-cleanup
 

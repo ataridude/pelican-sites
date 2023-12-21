@@ -1,7 +1,7 @@
 Title: ECMP in OSPF
 Date: 2022-2-20
-Category: Network
-Tags: ospf, routing, ecmp, wireguard, zerotier, usg
+Category: Networking
+Tags: ospf, routing, ecmp, wireguard, zerotier, usg, digitalocean
 Status: published
 
 I have recently switched most of my offsite network connections to
